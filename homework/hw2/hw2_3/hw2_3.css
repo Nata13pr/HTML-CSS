@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: darkgreen;
+}
+
+.wrapper {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.item {
+    width: 230px;
+    height: 240px;
+    background-color: lightgreen;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.item:hover {
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+.item p {
+    margin: 10px;
+}
+
+h2 {
+    padding: 10px;
+}
