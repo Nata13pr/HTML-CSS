@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+section a {
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#section-red {
+    background-color: #8c0202;
+    justify-content: flex-start;
+}
+
+#section-red h2 {
+    padding-top: 50px;
+}
+
+#section-blue {
+    background-color: cornflowerblue;
+}
+
+#section-green {
+    background-color: green;
+}
+
