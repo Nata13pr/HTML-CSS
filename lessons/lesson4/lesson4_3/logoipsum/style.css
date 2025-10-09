@@ -102,8 +102,9 @@ header nav a {
     letter-spacing: -0.531px;
 
 }
+
 /*------------------------------BRANDS------------------------------*/
-.brands{
+.brands {
     display: flex;
     justify-content: space-between;
     align-items: center;
