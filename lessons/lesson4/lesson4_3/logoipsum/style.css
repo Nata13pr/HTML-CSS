@@ -297,6 +297,7 @@ header nav a {
 /*---------------------------DIFFERENT-PLANS---------------------------------*/
 .different-plans {
     margin-top: 98px;
+    margin-bottom: 158px;
 }
 
 .different-plans ul {
@@ -307,10 +308,6 @@ header nav a {
 }
 
 .different-plans ul li {
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*justify-content: center;*/
-    /*align-items: center;*/
     width: 330px;
     height: 441px;
     border-radius: 10px;
@@ -337,9 +334,12 @@ header nav a {
     font-weight: 400;
     line-height: 28px; /* 155.556% */
     letter-spacing: -0.563px;
+    transition: 0.5s;
 }
 
 .different-plans ul li h3 {
+    margin-top: 28px;
+    margin-bottom: 28px;
     color: #1D293F;
     text-align: center;
     font-family: "DM Sans", sans-serif;
@@ -347,9 +347,11 @@ header nav a {
     font-weight: 700;
     line-height: 56px; /* 93.333% */
     letter-spacing: -1.034px;
+    transition: 0.5s;
 }
 
 .different-plans ul li p {
+    padding: 0 97px 0 97px;
     text-align: center;
     color: #696871;
     font-family: "Mulish", sans-serif;
@@ -357,6 +359,7 @@ header nav a {
     font-weight: 400;
     line-height: 50px; /* 294.118% */
     letter-spacing: -0.531px;
+    transition: 0.5s;
 }
 
 .different-plans ul li button {
@@ -366,4 +369,27 @@ header nav a {
     border-radius: 10px;
     border: 1px solid #EAE9F2;
     background: #FFF;
+    color: #5454D4;
+
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: -0.531px;
+    margin: 36px 21px 27px 24px;
+    transition: 0.5s;
+}
+
+.different-plans ul li:hover button {
+    background: #9F3919;
+    color: #FFF;
+    border: none;
+    transition: 2s;
+}
+
+.different-plans ul li:hover h2,
+.different-plans ul li:hover h3,
+.different-plans ul li:hover p {
+    color: #FFF;
+    transition: 2s;
 }
