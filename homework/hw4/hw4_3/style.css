@@ -29,13 +29,13 @@ main {
 
 .div-with-two-sections .brown {
     width: 100%;
-    height: 50%;
+    height: 40vh;
     background: #7F7A7A;
 }
 
 .div-with-two-sections .dark-brown {
     width: 100%;
-    height: 50%;
+    height: 34vh;
     background: #615050;
 }
 
