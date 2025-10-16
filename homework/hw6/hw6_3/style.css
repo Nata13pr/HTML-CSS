@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.wrapper {
+   width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #8c0202;
+}
+
+.form-registration,
+.form-footer {
+    /*border: 2px solid lightgray;*/
+}
+
+div.form-registration > div > img {
+    width: 60vw;
+}
+
+.form-registration > form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form-registration>form>input[type='text'],
+.form-registration>form>input[type='password']{
+    width: 65vw;
+    height: 15vh;
+    margin: 30px;
+}
+.form-registration>form>input::placeholder{
+    font-size: 35px;
+    padding-left: 15px;
+}
+
+/*.wrapper {*/
+/*    margin: 0 auto;*/
+/*    width: 90vw;*/
+/*    height: 90vh;*/
+/*    padding: 20px;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    flex-direction: column;*/
+/*}*/
+
+/*.form-registration,.form-footer{*/
+/*    border: 2px solid lightgray;*/
+/*}*/
