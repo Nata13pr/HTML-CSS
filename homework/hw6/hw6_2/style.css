@@ -23,11 +23,13 @@ body {
     margin: 0;
     width: 100%;
     height: 70px;
-    background-color: #e3efef;
+    /*background-color: #e3efef;*/
+    /*дякуючи альфа-каналу мені не треба тут також ставити border-radius*/
+    background-color: rgba(0,139,139,0.55);
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 7px;
+    /*border-radius: 7px;*/
     font-weight: normal;
 }
 .outside-form{
