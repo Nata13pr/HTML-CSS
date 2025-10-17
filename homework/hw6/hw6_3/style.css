@@ -1,29 +1,30 @@
 body {
     margin: 0;
-    height: 100vh;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
 }
 
 .wrapper {
-   width: 90vw;
+    width: 1350px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.form-registration {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #8c0202;
+    border: 3px solid lightgray;
+    margin-bottom: 15px;
 }
 
-.form-registration,
-.form-footer {
-    /*border: 2px solid lightgray;*/
+.form-registration > div {
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 
-div.form-registration > div > img {
-    width: 60vw;
+.form-registration > div > img {
+    width: 1000px;
 }
 
 .form-registration > form {
@@ -32,28 +33,72 @@ div.form-registration > div > img {
     align-items: center;
     flex-direction: column;
 }
-.form-registration>form>input[type='text'],
-.form-registration>form>input[type='password']{
-    width: 65vw;
-    height: 15vh;
-    margin: 30px;
+
+.form-registration > form > input {
+    width: 1000px;
+    height: 90px;
+    padding: 0;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin-bottom: 20px;
 }
-.form-registration>form>input::placeholder{
-    font-size: 35px;
+
+.form-registration > form > input::placeholder {
+    font-size: 30px;
+    letter-spacing: 10px;
     padding-left: 15px;
 }
 
-/*.wrapper {*/
-/*    margin: 0 auto;*/
-/*    width: 90vw;*/
-/*    height: 90vh;*/
-/*    padding: 20px;*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*    flex-direction: column;*/
-/*}*/
+.form-registration > form > input[type='submit'] {
+    margin-top: 20px;
+    background-color: skyblue;
+    border-radius: 15px;
+    border: none;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
 
-/*.form-registration,.form-footer{*/
-/*    border: 2px solid lightgray;*/
-/*}*/
+.form-registration > :nth-child(3) {
+    font-size: 40px;
+    font-weight: bold;
+    color: grey;
+    text-transform: uppercase;
+}
+
+.form-registration > :nth-child(4) {
+    font-size: 40px;
+    font-weight: bold;
+    color: darkblue;
+    margin-bottom: 30px;
+}
+
+.form-registration > :nth-child(4)::before {
+    display: inline-block;
+    content: '';
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    margin-bottom: -10px;
+    background-image: url("https://images.icon-icons.com/1043/PNG/512/social_media_icons_flat_shadow_set_512x512_0000_facebook_icon-icons.com_76449.png");
+    background-size: cover;
+}
+
+.form-registration > :nth-last-child(1) {
+    font-size: 40px;
+    color: darkblue;
+    margin-bottom: 40px;
+}
+
+.form-footer {
+    border: 3px solid lightgray;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 8px;
+    padding: 15px;
+}
+
+.form-footer > p > a {
+    text-decoration: none;
+}
