@@ -1,0 +1,35 @@
+body {
+    margin: 0 auto;
+
+}
+
+.wrapper{
+    width: 1400px;
+    height: 100vh;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+}
+body > div.wrapper>div {
+    width: 460px;
+    height: 500px;
+    background-color: #B3A0CD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+body > div.wrapper>div > h2 {
+    width: 100%;
+    text-align: center;
+}
+
+body > div.wrapper>div > form {
+    width: 100%;
+    background-color: #2a959b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
