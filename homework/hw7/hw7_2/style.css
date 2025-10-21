@@ -52,6 +52,7 @@ section.hero > .w-1170 {
     justify-content: space-between;
     align-items: center;
     gap: 208px;
+    margin-bottom: 101px;
 }
 
 button.one-position {
@@ -62,7 +63,8 @@ button.one-position {
     font-size: 16px;
     color: #8E88C1;
 }
-.w-1170>div.left-part-section-hero>h2{
+
+.w-1170 > div.left-part-section-hero > h2 {
     width: 261px;
     height: 88px;
     font-weight: 700;
@@ -70,34 +72,127 @@ button.one-position {
     letter-spacing: 0.05em;
     color: #fff;
 }
-.left-part-section-hero{
+
+.left-part-section-hero {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
     gap: 32px;
 }
-.left-part-section-hero>p{
+
+.left-part-section-hero > p {
     width: 570px;
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.05em;
     color: #8e88c1;
 }
-.left-part-section-hero>button.about{
+
+.left-part-section-hero > button.about {
     border-radius: 8px;
     width: 200px;
     height: 56px;
     box-shadow: 0 6px 20px 0 rgba(0, 255, 224, 0.2);
     background: #3f50e7;
+    text-transform: uppercase;
 }
-.bulb{
+
+.bulb {
     width: 375px;
     height: 411px;
     background-color: #827EAC;
-   position: relative;
+    position: relative;
 }
-.bulb>img{
+
+.bulb > img {
     position: absolute;
-    top:20px;
+    top: 20px;
+}
+
+/*--------------------------details-----------------*/
+section.details {
+    background-color: #071341;
+}
+
+section.details > .w-1170 > .items {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+section.details > .w-1170 > .items > .item {
+    width: 175px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+section.details > .w-1170 > .items > .item > .box {
+    border-radius: 8px;
+    width: 56px;
+    height: 56px;
+    background-color: #6B6161;
+    position: relative;
+}
+
+section.details > .w-1170 > .items > .item > .orange {
+    background-color: #FF6853;
+}
+
+section.details > .w-1170 > .items > .item > .red {
+    background-color: #FF537C;
+}
+
+section.details > .w-1170 > .items > .item > .blue {
+    background-color: #80D2C4;
+}
+
+section.details > .w-1170 > .items > .item > .violet {
+    background-color: #3F50E7;
+}
+
+section.details > .w-1170 > .items > .item > .green {
+    background-color: #95CB7C;
+}
+
+section.details > .w-1170 > .items > .item > .box > img {
+    position: absolute;
+    top: 13px;
+    left: 13px;
+}
+
+section.details > .w-1170 > .items > .item > :nth-child(2) > :nth-child(1) {
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 3px;
+}
+
+section.details > .w-1170 > .items > .item > :nth-child(2) > :nth-child(2) {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    color: #8e88c1;
+}
+
+section.details > .w-1170 > .around-h3-detail-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.details > .w-1170 > .around-h3-detail-section > h3 {
+    width: 1074px;
+    height: 126px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 117%;
+    text-align: center;
+    color: #fff;
 }
