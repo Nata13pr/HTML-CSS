@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    border: none;
+}
+
+body {
+    background-color: #24204A;
+    height: 100vh;
+}
+
+.w-1170 {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/*------------------------------header---------------------*/
+header {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    margin-bottom: 67px;
+}
+
+header > .w-1170 {
+    height: 113px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > .w-1170 :nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header > .w-1170 > nav > ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+}
+
+/*--------------------hero------------------*/
+section.hero > .w-1170 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 208px;
+}
+
+button.one-position {
+    width: 145px;
+    height: 41px;
+    border-radius: 8px;
+    background-color: #4B4864;
+    font-size: 16px;
+    color: #8E88C1;
+}
+.w-1170>div.left-part-section-hero>h2{
+    width: 261px;
+    height: 88px;
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.05em;
+    color: #fff;
+}
+.left-part-section-hero{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 32px;
+}
+.left-part-section-hero>p{
+    width: 570px;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    color: #8e88c1;
+}
+.left-part-section-hero>button.about{
+    border-radius: 8px;
+    width: 200px;
+    height: 56px;
+    box-shadow: 0 6px 20px 0 rgba(0, 255, 224, 0.2);
+    background: #3f50e7;
+}
+.bulb{
+    width: 375px;
+    height: 411px;
+    background-color: #827EAC;
+   position: relative;
+}
+.bulb>img{
+    position: absolute;
+    top:20px;
+}
