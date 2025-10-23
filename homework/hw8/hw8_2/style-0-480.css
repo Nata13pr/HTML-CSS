@@ -1,0 +1,25 @@
+@media screen and (max-width: 480px) {
+    .cards {
+        height: 100vh;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 3vh;
+    }
+
+    .card {
+        height: 21vh;
+        width: 343px;
+    }
+
+    .card h2 {
+        margin: 1.5vh 0 0.76vh 0;
+    }
+
+    .card p {
+        width: 343px;
+    }
+
+    .card img {
+        height: 12vh;
+    }
+}

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.cards {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.2vw;
+    margin: 0 auto;
+}
+
+.card {
+    width: 19vw;
+    height: 40vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.card h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    color: #161543;
+    margin: 20px 0 10px 0;
+}
+
+.card p {
+    width: 16vw;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #7687a1;
+}
