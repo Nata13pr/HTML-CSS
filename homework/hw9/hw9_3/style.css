@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+}
+
+.grid {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 73% 27%;
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-areas:
+    "header header"
+    "top-left top-right"
+    "top-left top-right"
+    "middle top-right"
+    "middle bottom-right"
+    "bottom-left bottom-right"
+     "bottom-left bottom-right"
+    "footer footer";
+
+}
+
+header, .top-left, .middle, .bottom-left, .top-right, .bottom-right, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p, header, footer {
+    font-weight: 400;
+    font-size: 45px;
+    color: #fff;
+}
+
+header, footer {
+    color: #000;
+}
+
+header {
+    grid-area: header;
+    background-color: #8D8484;
+}
+
+.top-left {
+    grid-area: top-left;
+    background-color: #776969;
+}
+
+.middle {
+    grid-area: middle;
+    background-color: #643030;
+}
+
+.bottom-left {
+    grid-area: bottom-left;
+    background-color: #441818;
+}
+
+.top-right {
+    grid-area: top-right;
+    background-color: #937575;
+}
+
+.bottom-right {
+    grid-area: bottom-right;
+    background-color: #644C4C;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #BDBDBD;
+}
